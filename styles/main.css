@@ -25,12 +25,14 @@ html {
 
 .main-nav li a:link,
 .main-nav li a:visited {
+    border-bottom: 2px solid transparent;
     color: #fff;
+    padding-bottom: 8px;
     text-decoration: none;
     text-transform: uppercase;
     transition: border-bottom 0.4s;
-    padding-bottom: 8px;
-    border-bottom: 2px solid transparent; 
+    
+     
 }
 
 .main-nav li a:hover,
